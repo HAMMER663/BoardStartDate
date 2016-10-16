@@ -1,0 +1,30 @@
+{
+    "name": "hammer663/BoardStartDate",
+    "type": "phpbb-extension",
+    "description": "Board Start Date",
+    "homepage": "https://github.com/hammer663/BoardStartDate",
+    "version": "1.0.0",
+    "time": "2015-11-06",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "HAMMER663",
+            "homepage": "http://www.phpbbguru.net/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "Board Start Date",
+        "soft-require": {
+        "phpbb/phpbb": "3.1.*@dev"
+        },
+        "version-check": {
+            "host": "hammer663.github.io",
+            "directory": "/versions",
+            "filename": "BoardStartDate.json"
+        }
+    }
+}
