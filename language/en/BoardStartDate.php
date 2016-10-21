@@ -30,4 +30,13 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'BOARD_START_DATE_INFO'		=> 'Forum opened on <strong>%1$s</strong> and runs <strong>%2$s</strong> day(s)',
+	
+));
+$lang = array_merge($lang, array(
+
+	'BOARD_STARTDATE'	=> array(
+		0	=> 'Forum opened on <strong>%1$s</strong> and runs less than one day',
+		1	=> 'Forum opened on <strong>%1$s</strong> and runs <strong>%2$s</strong> day',
+		2	=> 'Forum opened on <strong>%1$s</strong> and runs <strong>%2$s</strong> days',	
+	),
 ));

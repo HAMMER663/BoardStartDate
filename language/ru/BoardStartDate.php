@@ -29,12 +29,11 @@ if (empty($lang) || !is_array($lang))
 
 
 $lang = array_merge($lang, array(
-	'BOARD_START_DATE_INFO'		=> 'Форум открылся <strong>%1$s</strong> и работает <strong>%2$s</strong> дня(ей)',
-	
-//	'BOARD_START_DATE_INFO'	=> array(
-//		0	=> 'Форум открылся <strong>%$s</strong> и работает <strong>%$d</strong> дней',	
-//		1	=> 'Форум открылся <strong>%$s</strong> и работает <strong>%$d</strong> день',
-//		2	=> 'Форум открылся <strong>%$s</strong> и работает <strong>%$d</strong> дня',
-//		3	=> 'Форум открылся <strong>%$s</strong> и работает <strong>%$d</strong> дней',			
-//	),
+
+	'BOARD_STARTDATE'	=> array(
+		0	=> 'Форум открылся <strong>%1$s</strong> и работает менее одного дня',
+		1	=> 'Форум открылся <strong>%1$s</strong> и работает <strong>%2$s</strong> день',
+		2	=> 'Форум открылся <strong>%1$s</strong> и работает <strong>%2$s</strong> дня',
+		3	=> 'Форум открылся <strong>%1$s</strong> и работает <strong>%2$s</strong> дней',	
+	),
 ));
